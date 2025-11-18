@@ -78,14 +78,6 @@ WHERE Commission IN ('Marche Nordique', 'Randonnée Pédestre', 'Ski de Randonn�
 SELECT * FROM caf2_ffcam_member cfm WHERE email  = 'ziorchir7@yahoo.fr'
 
 
-DELETE FROM caf2_member_dvatraining cmd ;
-
-INSERT INTO caf2_member_dvatraining 
-SELECT NULL, r.member_id, 3, '2024-12-08', 2, '2024-12-08 21:00:00.000', NULL  FROM program p JOIN caf2_program_registration r ON r.program_id  = p.id 
-WHERE p.id = 15284
-UNION
-SELECT NULL, r.member_id, 3, '2024-12-15', 2, '2024-12-15 21:00:00.000', NULL  FROM program p JOIN caf2_program_registration r ON r.program_id  = p.id 
-WHERE p.id = 15285;
 
 SELECT * FROM caf2_member_dvatraining cmd
 
