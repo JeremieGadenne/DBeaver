@@ -1,0 +1,2940 @@
+{
+	"79cea06a-b5d0-4038-bfb4-28babbdd133a": {
+		"task": "dataExport",
+		"label": "Sync_PROD_to_DEV",
+		"description": "Copie complète des données de PROD vers DEV",
+		"createTime": "202510202055",
+		"updateTime": "202510202055",
+		"state": {
+			"producers": [
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/activity"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/activity"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article_category"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article_category"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact_category"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact_category"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_diffusion_list"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_diffusion_list"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_import_history"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_import_history"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_member"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_member"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_reminder"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_reminder"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_stat"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_stat"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_guest"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_guest"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_library_document"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_library_document"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_member"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_member"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_monetary_account_movement_type"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_monetary_account_movement_type"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_reservation_type"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_reservation_type"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_section"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_section"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_transportation"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_transportation"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_localisation"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_localisation"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/doctrine_migration_versions"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/program_template"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/activity_level"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_admin_user"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact_service"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_diffusion_list_recipient"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_member_dvatraining"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_monetary_account_transaction"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_photo_album"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_reservation"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_equipment_category"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_localisation_activity"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/supervisor"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact_recipient"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_equipment"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/program"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/retex"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article_comment"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article_image"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_article_comment_like"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email_attachment"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email_diffusion_list"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email_recipient"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_program_cosupervisor"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_program_equipment"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_program_registration"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_monetary_account_movement"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/VInscriptions"
+					}
+				},
+				{
+					"type": "databaseTransferProducer",
+					"location": {
+						"type": "entity",
+						"project": "General",
+						"entityId": "mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/VInscriptions2"
+					}
+				}
+			],
+			"consumers": [
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				},
+				{
+					"type": "databaseTransferConsumer"
+				}
+			],
+			"configuration": {
+				"maxJobCount": 1,
+				"showFinalMessage": true,
+				"DatabaseTransferProducer": {
+					"extractType": "SINGLE_QUERY",
+					"segmentSize": 100000,
+					"fetchSize": 10000,
+					"openNewConnections": false,
+					"queryRowCount": false,
+					"selectedColumnsOnly": false,
+					"selectedRowsOnly": false
+				},
+				"DatabaseTransferConsumer": {
+					"entityId": "mariaDB-1970b5460de-1fd79ee9dd9d3a90/caf",
+					"openNewConnections": true,
+					"useTransactions": true,
+					"commitAfterRows": 10000,
+					"useMultiRowInsert": false,
+					"multiRowInsertBatch": 500,
+					"skipBindValues": false,
+					"disableUsingBatches": false,
+					"ignoreDuplicateRows": false,
+					"onDuplicateKeyMethod": "",
+					"transferAutoGeneratedColumns": true,
+					"disableReferentialIntegrity": true,
+					"useBulkLoad": false,
+					"truncateBeforeLoad": true,
+					"openTableOnFinish": true,
+					"mappings": {
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/activity": {
+							"targetName": "activity",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"supplement": {
+									"targetName": "supplement",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"code": {
+									"targetName": "code",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"position": {
+									"targetName": "`position`",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"equipment_config_enabled": {
+									"targetName": "equipment_config_enabled",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article_category": {
+							"targetName": "article_category",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"color": {
+									"targetName": "color",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact_category": {
+							"targetName": "caf2_contact_category",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"position": {
+									"targetName": "`position`",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_diffusion_list": {
+							"targetName": "caf2_diffusion_list",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"description": {
+									"targetName": "description",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_import_history": {
+							"targetName": "caf2_ffcam_import_history",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"filename": {
+									"targetName": "filename",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"records": {
+									"targetName": "records",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_member": {
+							"targetName": "caf2_ffcam_member",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license12": {
+									"targetName": "license12",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"club": {
+									"targetName": "club",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license8": {
+									"targetName": "license8",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license_key": {
+									"targetName": "license_key",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"category": {
+									"targetName": "category",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license8chef": {
+									"targetName": "license8chef",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"birthday": {
+									"targetName": "birthday",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"registration_date": {
+									"targetName": "registration_date",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"civility": {
+									"targetName": "civility",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"last_name": {
+									"targetName": "last_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"first_name": {
+									"targetName": "first_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"address1": {
+									"targetName": "address1",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"address2": {
+									"targetName": "address2",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"address3": {
+									"targetName": "address3",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"address4": {
+									"targetName": "address4",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"zip_code": {
+									"targetName": "zip_code",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"city": {
+									"targetName": "city",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"internet": {
+									"targetName": "internet",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ap": {
+									"targetName": "ap",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ap_date": {
+									"targetName": "ap_date",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ext_world": {
+									"targetName": "ext_world",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ext_world_date": {
+									"targetName": "ext_world_date",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ext_corp": {
+									"targetName": "ext_corp",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ext_corp_date": {
+									"targetName": "ext_corp_date",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ext_para": {
+									"targetName": "ext_para",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ext_para_date": {
+									"targetName": "ext_para_date",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"emergency_phone": {
+									"targetName": "emergency_phone",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"mobile_phone": {
+									"targetName": "mobile_phone",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"home_phone": {
+									"targetName": "home_phone",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"striked_off_on": {
+									"targetName": "striked_off_on",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"striked_off_reason": {
+									"targetName": "striked_off_reason",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"emergency_contact": {
+									"targetName": "emergency_contact",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_reminder": {
+							"targetName": "caf2_ffcam_reminder",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license": {
+									"targetName": "license",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"first_name": {
+									"targetName": "first_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"last_name": {
+									"targetName": "last_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"first_reminder_on": {
+									"targetName": "first_reminder_on",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"second_reminder_on": {
+									"targetName": "second_reminder_on",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"account_created_on": {
+									"targetName": "account_created_on",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"stop_reminding": {
+									"targetName": "stop_reminding",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_ffcam_stat": {
+							"targetName": "caf2_ffcam_stat",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"date": {
+									"targetName": "`date`",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"count": {
+									"targetName": "count",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ffcam_year": {
+									"targetName": "ffcam_year",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ffcam_week": {
+									"targetName": "ffcam_week",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_guest": {
+							"targetName": "caf2_guest",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license": {
+									"targetName": "license",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"civility": {
+									"targetName": "civility",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"last_name": {
+									"targetName": "last_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"first_name": {
+									"targetName": "first_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"mobile_phone_number": {
+									"targetName": "mobile_phone_number",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_library_document": {
+							"targetName": "caf2_library_document",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"title": {
+									"targetName": "title",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"type": {
+									"targetName": "`type`",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"classification": {
+									"targetName": "classification",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"author": {
+									"targetName": "author",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"editor": {
+									"targetName": "editor",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"date": {
+									"targetName": "`date`",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"summary": {
+									"targetName": "summary",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_member": {
+							"targetName": "caf2_member",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license": {
+									"targetName": "license",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"license_key": {
+									"targetName": "license_key",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"first_name": {
+									"targetName": "first_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"last_name": {
+									"targetName": "last_name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"member_since": {
+									"targetName": "member_since",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"birthday": {
+									"targetName": "birthday",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ffcam_membership_since": {
+									"targetName": "ffcam_membership_since",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"ffcam_last_sync_on": {
+									"targetName": "ffcam_last_sync_on",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"renewed_membership": {
+									"targetName": "renewed_membership",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"closed_account": {
+									"targetName": "closed_account",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"invalid_email": {
+									"targetName": "invalid_email",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"mobile_phone_number": {
+									"targetName": "mobile_phone_number",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"home_phone_number": {
+									"targetName": "home_phone_number",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"emergency_phone_number": {
+									"targetName": "emergency_phone_number",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"has_cm": {
+									"targetName": "has_cm",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"terms_agreed_at": {
+									"targetName": "terms_agreed_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"newsletter_subscribed_at": {
+									"targetName": "newsletter_subscribed_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"comment": {
+									"targetName": "comment",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"newsletter_subscriptions": {
+									"targetName": "newsletter_subscriptions",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"negative_balance_email_counter": {
+									"targetName": "negative_balance_email_counter",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"username": {
+									"targetName": "username",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"password": {
+									"targetName": "password",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"active": {
+									"targetName": "active",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"locked": {
+									"targetName": "locked",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"failed_login": {
+									"targetName": "failed_login",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"expires_at": {
+									"targetName": "expires_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"credentials_expire_at": {
+									"targetName": "credentials_expire_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"roles": {
+									"targetName": "roles",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"last_login": {
+									"targetName": "last_login",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"token": {
+									"targetName": "token",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_monetary_account_movement_type": {
+							"targetName": "caf2_monetary_account_movement_type",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"short_label": {
+									"targetName": "short_label",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"label": {
+									"targetName": "label",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_reservation_type": {
+							"targetName": "caf2_reservation_type",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_section": {
+							"targetName": "caf2_section",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"code": {
+									"targetName": "code",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"activity_code": {
+									"targetName": "activity_code",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"person_in_charge": {
+									"targetName": "person_in_charge",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"color": {
+									"targetName": "color",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"validation_required": {
+									"targetName": "validation_required",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_transportation": {
+							"targetName": "caf2_transportation",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_localisation": {
+							"targetName": "caf_localisation",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"address": {
+									"targetName": "address",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"latitude": {
+									"targetName": "latitude",
+									"targetType": "",
+									"mappingType": "existing"
+								},
+								"longitude": {
+									"targetName": "longitude",
+									"targetType": "",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/VInscriptions": {
+							"targetName": "vinscriptions",
+							"mappingType": "existing",
+							"attributes": {
+								"idVue": {
+									"targetName": "idVue",
+									"mappingType": "existing"
+								},
+								"idSortie": {
+									"targetName": "idSortie",
+									"mappingType": "existing"
+								},
+								"Commission": {
+									"targetName": "Commission",
+									"mappingType": "existing"
+								},
+								"NomSortie": {
+									"targetName": "NomSortie",
+									"mappingType": "existing"
+								},
+								"DateDebut": {
+									"targetName": "DateDebut",
+									"mappingType": "existing"
+								},
+								"DateFin": {
+									"targetName": "DateFin",
+									"mappingType": "existing"
+								},
+								"Saison": {
+									"targetName": "Saison",
+									"mappingType": "existing"
+								},
+								"NbJours": {
+									"targetName": "NbJours",
+									"mappingType": "existing"
+								},
+								"Durée": {
+									"targetName": "Durée",
+									"mappingType": "existing"
+								},
+								"NbTotal": {
+									"targetName": "NbTotal",
+									"mappingType": "existing"
+								},
+								"NbMax": {
+									"targetName": "NbMax",
+									"mappingType": "existing"
+								},
+								"idMembre": {
+									"targetName": "idMembre",
+									"mappingType": "existing"
+								},
+								"last_name": {
+									"targetName": "last_name",
+									"mappingType": "existing"
+								},
+								"first_name": {
+									"targetName": "first_name",
+									"mappingType": "existing"
+								},
+								"Role": {
+									"targetName": "`Role`",
+									"mappingType": "existing"
+								},
+								"StatusLibelle": {
+									"targetName": "StatusLibelle",
+									"mappingType": "existing"
+								},
+								"status": {
+									"targetName": "status",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/VInscriptions2": {
+							"targetName": "vinscriptions2",
+							"mappingType": "existing",
+							"attributes": {
+								"idVue": {
+									"targetName": "idVue",
+									"mappingType": "existing"
+								},
+								"idSortie": {
+									"targetName": "idSortie",
+									"mappingType": "existing"
+								},
+								"Commission": {
+									"targetName": "Commission",
+									"mappingType": "existing"
+								},
+								"NomSortie": {
+									"targetName": "NomSortie",
+									"mappingType": "existing"
+								},
+								"DateDebut": {
+									"targetName": "DateDebut",
+									"mappingType": "existing"
+								},
+								"DateFin": {
+									"targetName": "DateFin",
+									"mappingType": "existing"
+								},
+								"NbJours": {
+									"targetName": "NbJours",
+									"mappingType": "existing"
+								},
+								"Durée": {
+									"targetName": "Durée",
+									"mappingType": "existing"
+								},
+								"NbTotal": {
+									"targetName": "NbTotal",
+									"mappingType": "existing"
+								},
+								"NbMax": {
+									"targetName": "NbMax",
+									"mappingType": "existing"
+								},
+								"idMembre": {
+									"targetName": "idMembre",
+									"mappingType": "existing"
+								},
+								"last_name": {
+									"targetName": "last_name",
+									"mappingType": "existing"
+								},
+								"first_name": {
+									"targetName": "first_name",
+									"mappingType": "existing"
+								},
+								"Role": {
+									"targetName": "`Role`",
+									"mappingType": "existing"
+								},
+								"StatusLibelle": {
+									"targetName": "StatusLibelle",
+									"mappingType": "existing"
+								},
+								"status": {
+									"targetName": "status",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/activity_level": {
+							"targetName": "activity_level",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"activity_id": {
+									"targetName": "activity_id",
+									"mappingType": "existing"
+								},
+								"short_name": {
+									"targetName": "short_name",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"mappingType": "existing"
+								},
+								"description": {
+									"targetName": "description",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article": {
+							"targetName": "article",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"author_id": {
+									"targetName": "author_id",
+									"mappingType": "existing"
+								},
+								"program_id": {
+									"targetName": "program_id",
+									"mappingType": "existing"
+								},
+								"category_id": {
+									"targetName": "category_id",
+									"mappingType": "existing"
+								},
+								"title": {
+									"targetName": "title",
+									"mappingType": "existing"
+								},
+								"content": {
+									"targetName": "content",
+									"mappingType": "existing"
+								},
+								"status": {
+									"targetName": "status",
+									"mappingType": "existing"
+								},
+								"moderation_comment": {
+									"targetName": "moderation_comment",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								},
+								"published_at": {
+									"targetName": "published_at",
+									"mappingType": "existing"
+								},
+								"archived_at": {
+									"targetName": "archived_at",
+									"mappingType": "existing"
+								},
+								"published_by_id": {
+									"targetName": "published_by_id",
+									"mappingType": "create"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article_comment": {
+							"targetName": "article_comment",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"article_id": {
+									"targetName": "article_id",
+									"mappingType": "existing"
+								},
+								"author_id": {
+									"targetName": "author_id",
+									"mappingType": "existing"
+								},
+								"content": {
+									"targetName": "content",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/article_image": {
+							"targetName": "article_image",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"article_id": {
+									"targetName": "article_id",
+									"mappingType": "existing"
+								},
+								"filename": {
+									"targetName": "filename",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_admin_user": {
+							"targetName": "caf2_admin_user",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"first_name": {
+									"targetName": "first_name",
+									"mappingType": "existing"
+								},
+								"last_name": {
+									"targetName": "last_name",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"mappingType": "existing"
+								},
+								"phone_number": {
+									"targetName": "phone_number",
+									"mappingType": "existing"
+								},
+								"email_receipt": {
+									"targetName": "email_receipt",
+									"mappingType": "existing"
+								},
+								"rights": {
+									"targetName": "rights",
+									"mappingType": "existing"
+								},
+								"username": {
+									"targetName": "username",
+									"mappingType": "existing"
+								},
+								"password": {
+									"targetName": "password",
+									"mappingType": "existing"
+								},
+								"active": {
+									"targetName": "active",
+									"mappingType": "existing"
+								},
+								"locked": {
+									"targetName": "locked",
+									"mappingType": "existing"
+								},
+								"failed_login": {
+									"targetName": "failed_login",
+									"mappingType": "existing"
+								},
+								"expires_at": {
+									"targetName": "expires_at",
+									"mappingType": "existing"
+								},
+								"credentials_expire_at": {
+									"targetName": "credentials_expire_at",
+									"mappingType": "existing"
+								},
+								"roles": {
+									"targetName": "roles",
+									"mappingType": "existing"
+								},
+								"last_login": {
+									"targetName": "last_login",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								},
+								"token": {
+									"targetName": "token",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_article_comment_like": {
+							"targetName": "caf2_article_comment_like",
+							"mappingType": "existing",
+							"attributes": {
+								"article_comment_id": {
+									"targetName": "article_comment_id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact": {
+							"targetName": "caf2_contact",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"service_id": {
+									"targetName": "service_id",
+									"mappingType": "existing"
+								},
+								"firstname": {
+									"targetName": "firstname",
+									"mappingType": "existing"
+								},
+								"lastname": {
+									"targetName": "lastname",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"mappingType": "existing"
+								},
+								"phone": {
+									"targetName": "phone",
+									"mappingType": "existing"
+								},
+								"subject": {
+									"targetName": "subject",
+									"mappingType": "existing"
+								},
+								"message": {
+									"targetName": "message",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact_recipient": {
+							"targetName": "caf2_contact_recipient",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"service_id": {
+									"targetName": "service_id",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_contact_service": {
+							"targetName": "caf2_contact_service",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"category_id": {
+									"targetName": "category_id",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"mappingType": "existing"
+								},
+								"position": {
+									"targetName": "`position`",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_diffusion_list_recipient": {
+							"targetName": "caf2_diffusion_list_recipient",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"diffusion_list_id": {
+									"targetName": "diffusion_list_id",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "create"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email": {
+							"targetName": "caf2_mailer_email",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"administrator_id": {
+									"targetName": "administrator_id",
+									"mappingType": "existing"
+								},
+								"program_id": {
+									"targetName": "program_id",
+									"mappingType": "existing"
+								},
+								"subject": {
+									"targetName": "subject",
+									"mappingType": "existing"
+								},
+								"content": {
+									"targetName": "content",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"sent": {
+									"targetName": "sent",
+									"mappingType": "existing"
+								},
+								"priority": {
+									"targetName": "priority",
+									"mappingType": "existing"
+								},
+								"status": {
+									"targetName": "status",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								},
+								"sent_at": {
+									"targetName": "sent_at",
+									"mappingType": "existing"
+								},
+								"estimated_recipient_count": {
+									"targetName": "estimated_recipient_count",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email_attachment": {
+							"targetName": "caf2_mailer_email_attachment",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"mailer_email_id": {
+									"targetName": "mailer_email_id",
+									"mappingType": "existing"
+								},
+								"path": {
+									"targetName": "`path`",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email_diffusion_list": {
+							"targetName": "caf2_mailer_email_diffusion_list",
+							"mappingType": "existing",
+							"attributes": {
+								"mailer_email_id": {
+									"targetName": "mailer_email_id",
+									"mappingType": "existing"
+								},
+								"diffusion_list_id": {
+									"targetName": "diffusion_list_id",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_mailer_email_recipient": {
+							"targetName": "caf2_mailer_email_recipient",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"mailer_email_id": {
+									"targetName": "mailer_email_id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"ffcam_member": {
+									"targetName": "ffcam_member",
+									"mappingType": "existing"
+								},
+								"email": {
+									"targetName": "email",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"sent_at": {
+									"targetName": "sent_at",
+									"mappingType": "existing"
+								},
+								"error": {
+									"targetName": "error",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_member_dvatraining": {
+							"targetName": "caf2_member_dvatraining",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"type": {
+									"targetName": "`type`",
+									"mappingType": "existing"
+								},
+								"completed_on": {
+									"targetName": "completed_on",
+									"mappingType": "existing"
+								},
+								"place": {
+									"targetName": "place",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_monetary_account_movement": {
+							"targetName": "caf2_monetary_account_movement",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"type_id": {
+									"targetName": "type_id",
+									"mappingType": "existing"
+								},
+								"program_id": {
+									"targetName": "program_id",
+									"mappingType": "existing"
+								},
+								"program_registration_id": {
+									"targetName": "program_registration_id",
+									"mappingType": "existing"
+								},
+								"transaction_id": {
+									"targetName": "transaction_id",
+									"mappingType": "existing"
+								},
+								"debit": {
+									"targetName": "debit",
+									"mappingType": "existing"
+								},
+								"credit": {
+									"targetName": "credit",
+									"mappingType": "existing"
+								},
+								"balance": {
+									"targetName": "balance",
+									"mappingType": "existing"
+								},
+								"consolidated": {
+									"targetName": "consolidated",
+									"mappingType": "existing"
+								},
+								"consolidated_at": {
+									"targetName": "consolidated_at",
+									"mappingType": "existing"
+								},
+								"comment": {
+									"targetName": "comment",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								},
+								"transaction_amount": {
+									"targetName": "transaction_amount",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_monetary_account_transaction": {
+							"targetName": "caf2_monetary_account_transaction",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"amount": {
+									"targetName": "amount",
+									"mappingType": "existing"
+								},
+								"currency": {
+									"targetName": "currency",
+									"mappingType": "existing"
+								},
+								"attempts": {
+									"targetName": "attempts",
+									"mappingType": "existing"
+								},
+								"return_code": {
+									"targetName": "return_code",
+									"mappingType": "existing"
+								},
+								"confirmed": {
+									"targetName": "confirmed",
+									"mappingType": "existing"
+								},
+								"confirmed_at": {
+									"targetName": "confirmed_at",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_photo_album": {
+							"targetName": "caf2_photo_album",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"subject": {
+									"targetName": "subject",
+									"mappingType": "existing"
+								},
+								"embed_src": {
+									"targetName": "embed_src",
+									"mappingType": "existing"
+								},
+								"event_date": {
+									"targetName": "event_date",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"views": {
+									"targetName": "views",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_program_cosupervisor": {
+							"targetName": "caf2_program_cosupervisor",
+							"mappingType": "existing",
+							"attributes": {
+								"base_program_id": {
+									"targetName": "base_program_id",
+									"mappingType": "existing"
+								},
+								"supervisor_id": {
+									"targetName": "supervisor_id",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_program_equipment": {
+							"targetName": "caf2_program_equipment",
+							"mappingType": "existing",
+							"attributes": {
+								"program_id": {
+									"targetName": "program_id",
+									"mappingType": "existing"
+								},
+								"equipment_id": {
+									"targetName": "equipment_id",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_program_registration": {
+							"targetName": "caf2_program_registration",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"program_id": {
+									"targetName": "program_id",
+									"mappingType": "existing"
+								},
+								"section_id": {
+									"targetName": "section_id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"guest_id": {
+									"targetName": "guest_id",
+									"mappingType": "existing"
+								},
+								"registered_by_admin_id": {
+									"targetName": "registered_by_admin_id",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"canceled": {
+									"targetName": "canceled",
+									"mappingType": "existing"
+								},
+								"canceled_by_admin": {
+									"targetName": "canceled_by_admin",
+									"mappingType": "existing"
+								},
+								"withdrawal_out_of_bounds": {
+									"targetName": "withdrawal_out_of_bounds",
+									"mappingType": "existing"
+								},
+								"withdrawal_out_of_bounds_at": {
+									"targetName": "withdrawal_out_of_bounds_at",
+									"mappingType": "existing"
+								},
+								"group_number": {
+									"targetName": "group_number",
+									"mappingType": "existing"
+								},
+								"payment_amount": {
+									"targetName": "payment_amount",
+									"mappingType": "existing"
+								},
+								"payment_type": {
+									"targetName": "payment_type",
+									"mappingType": "existing"
+								},
+								"payment_at": {
+									"targetName": "payment_at",
+									"mappingType": "existing"
+								},
+								"payment_reminder_at": {
+									"targetName": "payment_reminder_at",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								},
+								"waiting": {
+									"targetName": "waiting",
+									"mappingType": "existing"
+								},
+								"status": {
+									"targetName": "status",
+									"mappingType": "existing"
+								},
+								"refusal_reason": {
+									"targetName": "refusal_reason",
+									"mappingType": "existing"
+								},
+								"registered_at": {
+									"targetName": "registered_at",
+									"mappingType": "existing"
+								},
+								"canceled_at": {
+									"targetName": "canceled_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf2_reservation": {
+							"targetName": "caf2_reservation",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"admin_id": {
+									"targetName": "admin_id",
+									"mappingType": "existing"
+								},
+								"type_id": {
+									"targetName": "type_id",
+									"mappingType": "existing"
+								},
+								"title": {
+									"targetName": "title",
+									"mappingType": "existing"
+								},
+								"description": {
+									"targetName": "description",
+									"mappingType": "existing"
+								},
+								"event_start": {
+									"targetName": "event_start",
+									"mappingType": "existing"
+								},
+								"event_end": {
+									"targetName": "event_end",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_equipment": {
+							"targetName": "caf_equipment",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"category_id": {
+									"targetName": "category_id",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_equipment_category": {
+							"targetName": "caf_equipment_category",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"activity_id": {
+									"targetName": "activity_id",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/caf_localisation_activity": {
+							"targetName": "caf_localisation_activity",
+							"mappingType": "existing",
+							"attributes": {
+								"localisation_id": {
+									"targetName": "localisation_id",
+									"mappingType": "existing"
+								},
+								"activity_id": {
+									"targetName": "activity_id",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/doctrine_migration_versions": {
+							"targetName": "doctrine_migration_versions",
+							"mappingType": "existing",
+							"attributes": {
+								"version": {
+									"targetName": "version",
+									"mappingType": "existing"
+								},
+								"executed_at": {
+									"targetName": "executed_at",
+									"mappingType": "existing"
+								},
+								"execution_time": {
+									"targetName": "execution_time",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/program": {
+							"targetName": "program",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"activity_id": {
+									"targetName": "activity_id",
+									"mappingType": "existing"
+								},
+								"section_id": {
+									"targetName": "section_id",
+									"mappingType": "existing"
+								},
+								"creator_id": {
+									"targetName": "creator_id",
+									"mappingType": "existing"
+								},
+								"supervisor_id": {
+									"targetName": "supervisor_id",
+									"mappingType": "existing"
+								},
+								"localisation_id": {
+									"targetName": "localisation_id",
+									"mappingType": "existing"
+								},
+								"canceled_by_id": {
+									"targetName": "canceled_by_id",
+									"mappingType": "existing"
+								},
+								"deleted_by_id": {
+									"targetName": "deleted_by_id",
+									"mappingType": "existing"
+								},
+								"validated_by_id": {
+									"targetName": "validated_by_id",
+									"mappingType": "existing"
+								},
+								"legal_validated_by_id": {
+									"targetName": "legal_validated_by_id",
+									"mappingType": "existing"
+								},
+								"level_id": {
+									"targetName": "level_id",
+									"mappingType": "existing"
+								},
+								"starts_on": {
+									"targetName": "starts_on",
+									"mappingType": "existing"
+								},
+								"ends_on": {
+									"targetName": "ends_on",
+									"mappingType": "existing"
+								},
+								"duration": {
+									"targetName": "duration",
+									"mappingType": "existing"
+								},
+								"title": {
+									"targetName": "title",
+									"mappingType": "existing"
+								},
+								"description": {
+									"targetName": "description",
+									"mappingType": "existing"
+								},
+								"address": {
+									"targetName": "address",
+									"mappingType": "existing"
+								},
+								"latitude": {
+									"targetName": "latitude",
+									"mappingType": "existing"
+								},
+								"longitude": {
+									"targetName": "longitude",
+									"mappingType": "existing"
+								},
+								"featured_image": {
+									"targetName": "featured_image",
+									"mappingType": "existing"
+								},
+								"featured_image_thumb": {
+									"targetName": "featured_image_thumb",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"canceled": {
+									"targetName": "canceled",
+									"mappingType": "existing"
+								},
+								"deleted": {
+									"targetName": "deleted",
+									"mappingType": "existing"
+								},
+								"payment_by_account": {
+									"targetName": "payment_by_account",
+									"mappingType": "existing"
+								},
+								"payment_by_other": {
+									"targetName": "payment_by_other",
+									"mappingType": "existing"
+								},
+								"payment_amount": {
+									"targetName": "payment_amount",
+									"mappingType": "existing"
+								},
+								"payment_other_amount": {
+									"targetName": "payment_other_amount",
+									"mappingType": "existing"
+								},
+								"advance_payment_amount": {
+									"targetName": "advance_payment_amount",
+									"mappingType": "existing"
+								},
+								"debit_on": {
+									"targetName": "debit_on",
+									"mappingType": "existing"
+								},
+								"registration_required": {
+									"targetName": "registration_required",
+									"mappingType": "existing"
+								},
+								"registration_start": {
+									"targetName": "registration_start",
+									"mappingType": "existing"
+								},
+								"registration_end": {
+									"targetName": "registration_end",
+									"mappingType": "existing"
+								},
+								"maximum_registrations": {
+									"targetName": "maximum_registrations",
+									"mappingType": "existing"
+								},
+								"registrations_cancellable": {
+									"targetName": "registrations_cancellable",
+									"mappingType": "existing"
+								},
+								"withdrawal_deadline": {
+									"targetName": "withdrawal_deadline",
+									"mappingType": "existing"
+								},
+								"accounting_code": {
+									"targetName": "accounting_code",
+									"mappingType": "existing"
+								},
+								"accounting_ana_code": {
+									"targetName": "accounting_ana_code",
+									"mappingType": "existing"
+								},
+								"total_cost": {
+									"targetName": "total_cost",
+									"mappingType": "existing"
+								},
+								"validated": {
+									"targetName": "validated",
+									"mappingType": "existing"
+								},
+								"legal_validated": {
+									"targetName": "legal_validated",
+									"mappingType": "existing"
+								},
+								"validated_at": {
+									"targetName": "validated_at",
+									"mappingType": "existing"
+								},
+								"legal_validated_at": {
+									"targetName": "legal_validated_at",
+									"mappingType": "existing"
+								},
+								"validation_email_sent": {
+									"targetName": "validation_email_sent",
+									"mappingType": "existing"
+								},
+								"validation_email_sent_at": {
+									"targetName": "validation_email_sent_at",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								},
+								"registration_by_organizer": {
+									"targetName": "registration_by_organizer",
+									"mappingType": "existing"
+								},
+								"training": {
+									"targetName": "training",
+									"mappingType": "existing"
+								},
+								"elevation": {
+									"targetName": "elevation",
+									"mappingType": "existing"
+								},
+								"distance": {
+									"targetName": "distance",
+									"mappingType": "existing"
+								},
+								"rendezvous_time": {
+									"targetName": "rendezvous_time",
+									"mappingType": "existing"
+								},
+								"duration_hours": {
+									"targetName": "duration_hours",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/program_template": {
+							"targetName": "program_template",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"name": {
+									"targetName": "name",
+									"mappingType": "existing"
+								},
+								"data": {
+									"targetName": "`data`",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/retex": {
+							"targetName": "retex",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"program_id": {
+									"targetName": "program_id",
+									"mappingType": "existing"
+								},
+								"supervisor_id": {
+									"targetName": "supervisor_id",
+									"mappingType": "existing"
+								},
+								"created_by_id": {
+									"targetName": "created_by_id",
+									"mappingType": "existing"
+								},
+								"visible": {
+									"targetName": "visible",
+									"mappingType": "existing"
+								},
+								"file_name": {
+									"targetName": "file_name",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"updated_at": {
+									"targetName": "updated_at",
+									"mappingType": "existing"
+								}
+							}
+						},
+						"mariaDB-199f372164c-1b679b07ec49e1df/6x2ojx_caf/supervisor": {
+							"targetName": "supervisor",
+							"mappingType": "existing",
+							"attributes": {
+								"id": {
+									"targetName": "id",
+									"mappingType": "existing"
+								},
+								"member_id": {
+									"targetName": "member_id",
+									"mappingType": "existing"
+								},
+								"activity_id": {
+									"targetName": "activity_id",
+									"mappingType": "existing"
+								},
+								"responsable": {
+									"targetName": "responsable",
+									"mappingType": "existing"
+								},
+								"actif": {
+									"targetName": "actif",
+									"mappingType": "existing"
+								},
+								"created_at": {
+									"targetName": "created_at",
+									"mappingType": "existing"
+								},
+								"code_stage": {
+									"targetName": "code_stage",
+									"mappingType": "existing"
+								},
+								"code_james": {
+									"targetName": "code_james",
+									"mappingType": "existing"
+								},
+								"stage": {
+									"targetName": "stage",
+									"mappingType": "existing"
+								},
+								"obtention": {
+									"targetName": "obtention",
+									"mappingType": "existing"
+								},
+								"recyclage": {
+									"targetName": "recyclage",
+									"mappingType": "existing"
+								},
+								"prochain": {
+									"targetName": "prochain",
+									"mappingType": "existing"
+								},
+								"statut": {
+									"targetName": "statut",
+									"mappingType": "existing"
+								}
+							}
+						}
+					}
+				},
+				"producer": "database_producer",
+				"consumer": "database_consumer"
+			}
+		}
+	}
+}

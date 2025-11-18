@@ -1,0 +1,50 @@
+# ---- Windows ----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignorer tous les dossiers metadata dans n'importe quel sous-dossier
+**/.metadata/
+**/.plugins/
+
+
+# ---- DBeaver ----
+# Workspace & métadonnées Eclipse
+.settings/
+.project
+.classpath
+
+# Historique SQL local
+.history/
+.DBeaverData/
+
+# Drivers téléchargés par DBeaver
+drivers/
+
+# Sauvegardes automatiques
+*.bak
+*.tmp
+*.temp
+
+# Fichiers jetables
+*.log
+*.cache
+
+# ---- SQL Server / MariaDB ----
+# Fichiers d’exports volumineux
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# Dumps
+*.sql.zip
+*.dump
+*.bak
+
+# ---- Visual Studio Code ----
+.vscode/
+
+# ---- Git ----
+.gitignore~
+*.orig

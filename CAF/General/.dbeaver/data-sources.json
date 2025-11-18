@@ -1,0 +1,116 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-1970b5460de-1fd79ee9dd9d3a90": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "LOCAL",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "caf",
+				"url": "jdbc:mariadb://localhost:3306/caf",
+				"configurationType": "MANUAL",
+				"home": "mariadb_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"allowMultiQueries": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mariaDB-199f372164c-1b679b07ec49e1df": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "PROD",
+			"save-password": true,
+			"navigator-show-only-entities": true,
+			"navigator-hide-folders": true,
+			"navigator-hide-virtual": true,
+			"configuration": {
+				"host": "127.0.0.1",
+				"port": "3306",
+				"database": "6x2ojx_caf",
+				"url": "jdbc:mariadb://127.0.0.1:3306/6x2ojx_caf",
+				"configurationType": "MANUAL",
+				"home": "mariadb_client",
+				"type": "test",
+				"closeIdleConnection": true,
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"host": "6x2ojx.ftp.infomaniak.com",
+							"port": 22.0,
+							"authType": "PASSWORD",
+							"implementation": "sshj",
+							"shareTunnels": true,
+							"localHost": "",
+							"remoteHost": "6x2ojx.myd.infomaniak.com",
+							"remotePort": 3306.0
+						}
+					}
+				}
+			},
+			"custom-properties": {
+				"resultset.grid.value.format": "EDIT"
+			}
+		}
+	},
+	"virtual-models": {"mariaDB-1970b5460de-1fd79ee9dd9d3a90":{"caf_test":{":caf2_program":{"properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202506022305\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"mariaDB-1970b5460de-1fd79ee9dd9d3a90\"\u003e\u003centity id\u003d\"1\" name\u003d\"caf2_program\" fq-name\u003d\"caf_test.caf2_program\" order\u003d\"0\" color-bg\u003d\"255,128,64\" x\u003d\"600\" y\u003d\"480\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"caf2_admin_user\" fq-name\u003d\"caf_test.caf2_admin_user\" order\u003d\"1\" x\u003d\"858\" y\u003d\"628\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"caf2_massif\" fq-name\u003d\"caf_test.caf2_massif\" order\u003d\"2\" x\u003d\"858\" y\u003d\"1152\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"caf2_program_type\" fq-name\u003d\"caf_test.caf2_program_type\" order\u003d\"3\" x\u003d\"858\" y\u003d\"1296\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"caf2_section\" fq-name\u003d\"caf_test.caf2_section\" order\u003d\"4\" x\u003d\"970\" y\u003d\"290\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"caf2_supervisor\" fq-name\u003d\"caf_test.caf2_supervisor\" order\u003d\"5\" x\u003d\"858\" y\u003d\"40\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"7\" name\u003d\"caf2_transportation\" fq-name\u003d\"caf_test.caf2_transportation\" order\u003d\"6\" x\u003d\"858\" y\u003d\"1440\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"8\" name\u003d\"caf2_mailer_email\" fq-name\u003d\"caf_test.caf2_mailer_email\" order\u003d\"7\" x\u003d\"328\" y\u003d\"1457\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"9\" name\u003d\"caf2_monetary_account_movement\" fq-name\u003d\"caf_test.caf2_monetary_account_movement\" order\u003d\"8\" x\u003d\"40\" y\u003d\"661\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"10\" name\u003d\"caf2_program_group\" fq-name\u003d\"caf_test.caf2_program_group\" order\u003d\"9\" x\u003d\"328\" y\u003d\"909\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"11\" name\u003d\"caf2_program_organizer\" fq-name\u003d\"caf_test.caf2_program_organizer\" order\u003d\"10\" x\u003d\"328\" y\u003d\"1193\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"12\" name\u003d\"caf2_program_registration\" fq-name\u003d\"caf_test.caf2_program_registration\" order\u003d\"11\" x\u003d\"328\" y\u003d\"324\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"13\" name\u003d\"retex\" fq-name\u003d\"caf_test.retex\" order\u003d\"12\" x\u003d\"328\" y\u003d\"60\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_EAFAE49C727ACA70\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49C727ACA70\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"1\"\u003e\u003cbend type\u003d\"rel\" x\u003d\"792\" y\u003d\"544\"/\u003e\u003cbend type\u003d\"rel\" x\u003d\"839\" y\u003d\"520\"/\u003e\u003cbend type\u003d\"rel\" x\u003d\"839\" y\u003d\"473\"/\u003e\u003cbend type\u003d\"rel\" x\u003d\"792\" y\u003d\"450\"/\u003e\u003c/relation\u003e\u003crelation name\u003d\"FK_F5A935EF3EB8070A\" fq-name\u003d\"caf_test.caf2_mailer_email.FK_F5A935EF3EB8070A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"8\"/\u003e\u003crelation name\u003d\"FK_FC2FB9143EB8070A\" fq-name\u003d\"caf_test.caf2_monetary_account_movement.FK_FC2FB9143EB8070A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"9\"/\u003e\u003crelation name\u003d\"FK_1DA6BCCB3EB8070A\" fq-name\u003d\"caf_test.caf2_program_group.FK_1DA6BCCB3EB8070A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"10\"/\u003e\u003crelation name\u003d\"FK_A17E99353EB8070A\" fq-name\u003d\"caf_test.caf2_program_organizer.FK_A17E99353EB8070A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"11\"/\u003e\u003crelation name\u003d\"FK_B61B65FF3EB8070A\" fq-name\u003d\"caf_test.caf2_program_registration.FK_B61B65FF3EB8070A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"12\"/\u003e\u003crelation name\u003d\"FK_5C64E5E33EB8070A\" fq-name\u003d\"caf_test.retex.FK_5C64E5E33EB8070A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"13\"/\u003e\u003crelation name\u003d\"FK_EAFAE49C1418957\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49C1418957\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_EAFAE49C61220EA6\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49C61220EA6\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_EAFAE49CC69DE5E5\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49CC69DE5E5\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_EAFAE49CC76F1F52\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49CC76F1F52\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_F5A935EF4B09E92C\" fq-name\u003d\"caf_test.caf2_mailer_email.FK_F5A935EF4B09E92C\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"8\"/\u003e\u003crelation name\u003d\"FK_B61B65FF79760F8\" fq-name\u003d\"caf_test.caf2_program_registration.FK_B61B65FF79760F8\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"12\"/\u003e\u003crelation name\u003d\"FK_5C64E5E3B03A8386\" fq-name\u003d\"caf_test.retex.FK_5C64E5E3B03A8386\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"13\"/\u003e\u003crelation name\u003d\"FK_EAFAE49C143DC660\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49C143DC660\" type\u003d\"fk\" pk-ref\u003d\"3\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_EAFAE49CC54C8C93\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49CC54C8C93\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_EAFAE49CD823E37A\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49CD823E37A\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_B61B65FFD823E37A\" fq-name\u003d\"caf_test.caf2_program_registration.FK_B61B65FFD823E37A\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"12\"/\u003e\u003crelation name\u003d\"FK_EAFAE49C19E9AC5F\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49C19E9AC5F\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"1\"\u003e\u003cbend type\u003d\"abs\" x\u003d\"701\" y\u003d\"426\"/\u003e\u003c/relation\u003e\u003crelation name\u003d\"FK_5C64E5E319E9AC5F\" fq-name\u003d\"caf_test.retex.FK_5C64E5E319E9AC5F\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"13\"/\u003e\u003crelation name\u003d\"FK_EAFAE49CF7BB88E4\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49CF7BB88E4\" type\u003d\"fk\" pk-ref\u003d\"7\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_FC2FB91427123A7C\" fq-name\u003d\"caf_test.caf2_monetary_account_movement.FK_FC2FB91427123A7C\" type\u003d\"fk\" pk-ref\u003d\"12\" fk-ref\u003d\"9\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}},":caf_activity":{"properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202506022305\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"mariaDB-1970b5460de-1fd79ee9dd9d3a90\"\u003e\u003centity id\u003d\"1\" name\u003d\"caf_activity\" fq-name\u003d\"caf_test.caf_activity\" order\u003d\"0\" color-bg\u003d\"255,128,64\" x\u003d\"227\" y\u003d\"40\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"caf_activity_level\" fq-name\u003d\"caf_test.caf_activity_level\" order\u003d\"1\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_caf2_activity_level_caf2_activity\" fq-name\u003d\"caf_test.caf_activity_level.FK_caf2_activity_level_caf2_activity\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"2\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}},":caf2_section":{"properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202506022305\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"mariaDB-1970b5460de-1fd79ee9dd9d3a90\"\u003e\u003centity id\u003d\"1\" name\u003d\"caf2_section\" fq-name\u003d\"caf_test.caf2_section\" order\u003d\"0\" color-bg\u003d\"255,128,64\" x\u003d\"570\" y\u003d\"1067\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"caf2_program\" fq-name\u003d\"caf_test.caf2_program\" order\u003d\"1\" x\u003d\"312\" y\u003d\"40\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"caf2_program_registration\" fq-name\u003d\"caf_test.caf2_program_registration\" order\u003d\"2\" x\u003d\"40\" y\u003d\"927\"\u003e\u003cpath name\u003d\"caf_test\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_EAFAE49CD823E37A\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49CD823E37A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"2\"/\u003e\u003crelation name\u003d\"FK_B61B65FFD823E37A\" fq-name\u003d\"caf_test.caf2_program_registration.FK_B61B65FFD823E37A\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"FK_EAFAE49C727ACA70\" fq-name\u003d\"caf_test.caf2_program.FK_EAFAE49C727ACA70\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"2\"\u003e\u003cbend type\u003d\"rel\" x\u003d\"504\" y\u003d\"104\"/\u003e\u003cbend type\u003d\"rel\" x\u003d\"551\" y\u003d\"80\"/\u003e\u003cbend type\u003d\"rel\" x\u003d\"551\" y\u003d\"33\"/\u003e\u003cbend type\u003d\"rel\" x\u003d\"504\" y\u003d\"10\"/\u003e\u003c/relation\u003e\u003crelation name\u003d\"FK_B61B65FF3EB8070A\" fq-name\u003d\"caf_test.caf2_program_registration.FK_B61B65FF3EB8070A\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"3\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}}}},"mariaDB-199f372164c-1b679b07ec49e1df":{"6x2ojx_caf":{":activity":{"constraints":{"VIRTUAL_PK":{"type":"vpk","useAllColumns":true}}}}}},
+	"network-profiles": {
+		"CAF": {
+			"name": "CAF",
+			"handlers": {
+				"ssh_tunnel": {
+					"type": "TUNNEL",
+					"enabled": true,
+					"save-password": true,
+					"properties": {
+						"host": "ssh.cluster020.hosting.ovh.net",
+						"port": 22.0,
+						"authType": "PASSWORD",
+						"implementation": "sshj",
+						"localHost": "",
+						"remoteHost": ""
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		},
+		"test": {
+			"name": "Test",
+			"color": "org.jkiss.dbeaver.color.connectionType.qa.background",
+			"description": "Test (QA) database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": true,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 900,
+			"auto-close-connections": true,
+			"close-connections-period": 7200
+		}
+	}
+}
