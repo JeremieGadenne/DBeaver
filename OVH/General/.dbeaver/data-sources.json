@@ -1,0 +1,38 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-19a9b6636e6-412e4aa038bef08a": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "bc447813-001.eu.clouddb.ovh.net",
+			"save-password": true,
+			"configuration": {
+				"host": "bc447813-001.eu.clouddb.ovh.net",
+				"port": "35925",
+				"database": "BaseLaConay",
+				"url": "jdbc:mysql://bc447813-001.eu.clouddb.ovh.net:35925/BaseLaConay",
+				"configurationType": "MANUAL",
+				"home": "mariadb_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

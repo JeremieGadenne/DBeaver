@@ -26,5 +26,6 @@ SELECT NULL, r.member_id, 3, '2023-12-17', 2, '2023-12-17 21:00:00.000', NULL  F
 WHERE p.id = 14989
 AND r.status = 1 ; -- Sortie Yann QUILLARD
 
+--TEST
 
 
