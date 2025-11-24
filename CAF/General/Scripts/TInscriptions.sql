@@ -63,7 +63,7 @@ SET Saison = CONCAT(
 
 
 select * from tinscriptions t
-WHERE idSortie  = 16049
+WHERE idSortie  = 16401
 AND status = 1
 
 CREATE VIEW AS 

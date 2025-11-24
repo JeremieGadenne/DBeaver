@@ -28,4 +28,3 @@ AND r.status = 1 ; -- Sortie Yann QUILLARD
 
 --TEST
 
-
